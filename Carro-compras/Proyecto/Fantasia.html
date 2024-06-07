@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/CSS/Fantasia.css">
+    <script src="/JavaScript/Carro_compra.js" async></script>
+    <title>Libros de Fantasia | </title>
+</head>
+<body>
+    <header>
+        <h1>Libros de Fantasia</h1>
+    </header>
+
+    <nav>
+        <ul>
+          <li class="left"><a href="/page/Proyecto/1Menu.html">Inicio</a></li>
+          <li><a href="/Proyecto/Fantasia.html">Fantasia</a></li>
+          <li><a href="/Proyecto/Ficcion.html">Ficcion</a></li>
+          <li><a href="/Proyecto/Clasica.html">Clasica</a></li>
+          <li class="right"><a href="/page/Proyecto/Index.html">Inicio de sesion</a></li>
+        </ul>
+      </nav>
+
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">La maldicion de Khaine</span>
+                <img src="/IMG-Fantasia/01Libro-fantasia.png" alt="" class="img-item">
+                <span class="precio-item">$15.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">El señor del fin de los tiempos</span>
+                <img src="/IMG-Fantasia/02Libro-fantasia.png" alt="" class="img-item">
+                <span class="precio-item">$25.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Warcraft Cronicas VOL 1</span>
+                <img src="/IMG-Fantasia/03Libro-fantasia.png" alt="" class="img-item">
+                <span class="precio-item">$35.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">La Warcraft Cronicas VOL 2</span>
+                <img src="/IMG-Fantasia/04Libro-fantasia.png" alt="" class="img-item">
+                <span class="precio-item">$18.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">La Warcraft Cronicas VOL 3</span>
+                <img src="/IMG-Fantasia/05Libro-fantasia.webp" alt="" class="img-item">
+                <span class="precio-item">$18.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Arthas Rise of the Lich King</span>
+                <img src="/IMG-Fantasia/06Libro-fantasia.webp" alt="" class="img-item">
+                <span class="precio-item">$54.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
